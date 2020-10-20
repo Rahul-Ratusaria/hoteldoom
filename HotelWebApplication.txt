@@ -1,0 +1,73 @@
+
+This HotelWebApplication requires some responsive pages a follows:
+
+1) Login Page
+	Input
+	-->Email ID
+	-->Password
+	Link
+	-->Create an Acocunt
+	-->Forgotton Password
+
+2) Signup Page
+	Input
+	-->First Name
+	-->Last Name
+	-->Gender (As Dropdown/Select)
+	-->Date of Birth
+	-->Contact Number
+	-->Aadhar Number
+	-->State (As Dropdown/Select)
+	-->Pincode
+	-->Email ID
+	-->Password
+	-->Confirm Password
+	Link
+	-->Back to Login Page
+
+3) Dashboard
+	NavBar LEFT SIDE
+	-->Brand Name
+	-->Home
+	-->
+
+	NavBar RIGHT SIDE
+	-->A logo/picture (a  small round picture)
+	-->Logo will the dropdown consisting of options (Profile, Settings, Logout)
+	-->Search Box with Search button (this will be the left of logo)
+
+	Body
+	--> Card of Images of Hotel Pictures
+	--> One row contains 4 to 5 pictues of hotel (according to responsivness)
+	--> If in Mobile view, one row may contains 1-2 images (according to responsivness)
+	--> Images cant not be overlapped
+	--> Every Card of Images must have the following properties:
+	    --> Name of the Hotel
+	    --> Description of the Hotel/Hotel's room e.g (Good facilities, great infrastructure, great location, great view or you can take help from any booking hotel site)
+	    --> Button to book room of that hotel
+	    --> Price of the hotet's room
+	    --> + or - button to increase/decrease no. of rooms to be booked
+
+	Footer
+	--> A simple footer section having 4-5 links to social media (Facebook, github, instagram, twitter)
+	--> All social medias link will be wrapped inside the corresponding logos i.e (facebook, instagram etc)
+	--> A copyright paragraph (<p> Copyright @2020-09 </p>)
+
+
+4) Index page
+	--> Requirements will be shared later
+
+5) About/Contact us
+	--> Requirements will be shared later
+
+Constraints:
+	--> Display an corresponding error msg if the input is invalid. (In red font colors)	
+	--> Aadhar number (must be of 12 digits and should not contain any letters)
+	--> Mobile number (must be of 10 digits and should not contain any letters)
+	--> Pincode (must be of 6 digits and should not contain any letters)
+	--> Date of Birth (Must be 16+)
+	--> Email ID (must have @, ., length>8 )
+	--> No input field can be blank/empty.
+	
+
+Note: Make sure the pages look similar to one another, This should not be happened that one page looks quite different in looks than another page. (use same colors etc)

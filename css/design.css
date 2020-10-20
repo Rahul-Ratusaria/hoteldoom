@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding:0;
+}
+.main{
+  overflow: auto;
+}
+.navcolor{
+  box-shadow: 0 3px 7px #bbb;
+  margin-bottom: 60px;
+}
+.search{
+  opacity: 0.8;
+}
+.loginbutton{
+  border: 1px solid #2ED4D2;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px #bbb;
+  width: 75px;
+}
+.flexicon{
+  float: left;
+  margin-top:10px;
+}
+.register{
+  width: 50%;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background-color: #2D9FFF;
+  border-radius: 5px;
+  border:none;
+}
+.jumbotron{
+  margin-left:30px;
+  margin-right:30px;
+}
+.cards{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.card{
+  margin-bottom: 50px;
+  box-shadow: 0 6px 10px #999;
+}
+.narrower{
+  min-height: 600px;
+  max-height: 600px;
+}
+.carousel-item .d-block{
+  height: 240px;
+}
+.roomincrdecr{
+  position: absolute;
+  bottom: 60px;
+}
+.roomincrdecr button{
+  color: white;
+  height: 25px;
+  width: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2D9FFF;
+}
+.roomincrdecr button:focus{
+  outline: none;
+}
+.text-center{
+  margin-bottom: -12px;
+}
+.fav{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 10px;
+  top: 240px;
+  font-size: 25px;
+  color: black;
+}
+.fav button{
+  background-color: white;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.fav button:focus{
+  outline: none;
+}
+.booking{
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  background-color: #2D9FFF;
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 4px 5px #bbb;
+}
+.booking:focus{
+  outline: none;
+}
+.ftr{
+  background-color: #37ADF7;
+  position: relative;
+  height: 100px;
+  clear: both;
+}
+.socialmedia{
+  position: relative;
+  bottom: 0;
+  top: 20px;
+}
+.socialicon{
+  height: 40px;
+  width: 40px;
+  margin: 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  box-shadow: 0 3px 7px black;
+}
+.socialicon:hover{
+  color: blue;
+}
+.socialicon:nth-child(even):hover{
+  color: red;
+}
+.socialicon:focus{
+  outline-style: none;
+}
+.copyright{
+  position: relative;
+  font-size: 10px;
+  bottom: 0;
+  top: 28px;
+}
